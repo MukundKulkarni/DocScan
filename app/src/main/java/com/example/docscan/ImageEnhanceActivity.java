@@ -93,8 +93,6 @@ public class ImageEnhanceActivity extends AppCompatActivity {
         try {
             FileOutputStream out = new FileOutputStream(file);
             finalBitmap.compress(Bitmap.CompressFormat.JPEG, 90, out);
-            // sendBroadcast(new Intent(Intent.ACTION_MEDIA_MOUNTED,
-            //     Uri.parse("file://"+ Environment.getExternalStorageDirectory())));
             out.flush();
             out.close();
 
