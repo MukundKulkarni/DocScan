@@ -1,5 +1,5 @@
 # DocScan
-A Simple Document Scanner built using openCV for Android.
+Simple Documnet Scanner built using openCV for Android
 
 # App Design
 
